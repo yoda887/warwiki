@@ -2,100 +2,162 @@
 title: Untitled Page
 description: 
 published: true
-date: 2024-08-31T23:12:43.503Z
+date: 2024-08-31T23:14:27.967Z
 tags: 
 editor: code
 dateCreated: 2024-08-31T23:12:43.503Z
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Military Law of Ukraine - Wiki.js</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to a CSS file if you have one -->
+    <title>Військове право України - Вікі</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Linux Libertine", Georgia, "Times New Roman", serif;
+            background-color: #f9f9f9;
+            color: #202122;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
-        header {
-            background-color: #2c3e50;
-            color: white;
+
+        #content {
+            width: 100%;
+            max-width: 960px;
+            margin: auto;
             padding: 20px;
-            text-align: center;
+            background-color: white;
+            border: 1px solid #a7d7f9;
         }
-        nav {
-            background-color: #34495e;
-            padding: 10px;
+
+        #header {
             text-align: center;
+            padding: 10px 0;
+            background-color: #eaecf0;
+            border-bottom: 1px solid #a7d7f9;
         }
-        nav a {
-            color: white;
-            margin: 0 15px;
+
+        #header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #202122;
+        }
+
+        #header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        #mw-navigation {
+            margin-top: 20px;
+        }
+
+        #mw-navigation ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #mw-navigation li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        #mw-navigation a {
+            color: #0645ad;
             text-decoration: none;
             font-weight: bold;
         }
-        .content {
-            padding: 20px;
+
+        #main-section {
+            display: flex;
+            margin-top: 20px;
         }
+
+        #main-section .section {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        #main-section .section:last-child {
+            margin-right: 0;
+        }
+
+        #main-section h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #a7d7f9;
+            padding-bottom: 5px;
+        }
+
+        #main-section p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
         footer {
-            background-color: #2c3e50;
-            color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            padding: 10px 0;
+            background-color: #eaecf0;
+            border-top: 1px solid #a7d7f9;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Military Law of Ukraine</h1>
-        <p>Your Resource for Ukrainian Military Legislation</p>
-    </header>
+    <div id="content">
+        <div id="header">
+            <h1>Військове право України</h1>
+            <p>Ваш ресурс для законодавства про військову службу та діяльність в Україні</p>
+        </div>
 
-    <nav>
-        <a href="#introduction">Introduction</a>
-        <a href="#legislation">Legislation</a>
-        <a href="#court-decisions">Court Decisions</a>
-        <a href="#articles">Articles</a>
-        <a href="#resources">Resources</a>
-    </nav>
+        <div id="mw-navigation">
+            <ul>
+                <li><a href="#introduction">Вступ</a></li>
+                <li><a href="#legislation">Законодавство</a></li>
+                <li><a href="#court-decisions">Судові рішення</a></li>
+                <li><a href="#articles">Статті</a></li>
+                <li><a href="#resources">Ресурси</a></li>
+            </ul>
+        </div>
 
-    <div class="content">
-        <section id="introduction">
-            <h2>Introduction</h2>
-            <p>Welcome to the Military Law of Ukraine wiki. This platform is dedicated to providing comprehensive information on the legal frameworks governing military operations, service, and related activities in Ukraine.</p>
-        </section>
+        <div id="main-section">
+            <div class="section" id="introduction">
+                <h2>Вступ</h2>
+                <p>Ласкаво просимо до вікі, присвяченої військовому праву України. Цей сайт надає детальну інформацію про правові рамки, що регулюють військові операції, службу та пов'язані з цим діяльності в Україні.</p>
+            </div>
 
-        <section id="legislation">
-            <h2>Legislation</h2>
-            <p>Explore the key laws and regulations that form the foundation of military law in Ukraine. This section includes the full text of relevant statutes, amendments, and interpretations.</p>
-        </section>
+            <div class="section" id="legislation">
+                <h2>Законодавство</h2>
+                <p>Ознайомтесь з ключовими законами та нормативними актами, що складають основу військового права в Україні. У цьому розділі представлено повний текст відповідних законів, поправок та їх тлумачень.</p>
+            </div>
+        </div>
 
-        <section id="court-decisions">
-            <h2>Court Decisions</h2>
-            <p>Review landmark court decisions that have shaped the application of military law in Ukraine. This section provides detailed analysis and case summaries.</p>
-        </section>
+        <div id="main-section">
+            <div class="section" id="court-decisions">
+                <h2>Судові рішення</h2>
+                <p>Перегляньте важливі судові рішення, які вплинули на застосування військового права в Україні. У цьому розділі представлені детальні аналізи та резюме справ.</p>
+            </div>
 
-        <section id="articles">
-            <h2>Articles</h2>
-            <p>Read scholarly articles, commentaries, and opinions from experts in the field of military law. These articles offer deep insights and critical analysis on various topics.</p>
-        </section>
+            <div class="section" id="articles">
+                <h2>Статті</h2>
+                <p>Читайте наукові статті, коментарі та думки експертів у галузі військового права. Ці статті пропонують глибокий аналіз та критичний огляд різних тем.</p>
+            </div>
+        </div>
 
-        <section id="resources">
-            <h2>Resources</h2>
-            <p>Access a collection of resources including official documents, reports, and links to other legal databases related to military law in Ukraine.</p>
-        </section>
+        <div id="main-section">
+            <div class="section" id="resources">
+                <h2>Ресурси</h2>
+                <p>Отримайте доступ до колекції ресурсів, включаючи офіційні документи, звіти та посилання на інші правові бази даних, пов'язані з військовим правом в Україні.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Військове право України Вікі | Всі права захищені</p>
+        </footer>
     </div>
-
-    <footer>
-        <p>&copy; 2024 Military Law of Ukraine Wiki | All Rights Reserved</p>
-    </footer>
 </body>
 </html>
